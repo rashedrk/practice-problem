@@ -25,6 +25,7 @@ const displayCountries = countries => {
     
 };
 
+// filter by region
 const filterByRegion = () => {
     const regions = document.getElementsByClassName('region');
     for (const region of regions) {
